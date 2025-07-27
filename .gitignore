@@ -1,4 +1,8 @@
-env
+backend/env
 *.env
-env/
-venv/
+backend/env/
+backend/venv/
+.env
+
+# Ignore Python cache files
+backend/__pycache__/
