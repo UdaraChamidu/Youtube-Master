@@ -17,6 +17,8 @@ def summarize_video(url: str = Query(..., description="YouTube video URL")):
     summary = summarize_text(transcript)
     sinhala_summary = translate_to_sinhala(summary)
     return {
+        "transcript_excerpt": transcript[:300] + "...",
         "summary_en": summary,
         "summary_si": sinhala_summary
+        
     }

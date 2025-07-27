@@ -5,3 +5,6 @@ openai
 googletrans==4.0.0-rc1
 python-dotenv
 google-generativeai
+pytube
+openai-whisper
+google-cloud-aiplatform
