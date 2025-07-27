@@ -6,3 +6,16 @@ backend/venv/
 
 # Ignore Python cache files
 backend/__pycache__/
+
+
+# Ignore Node modules
+frontend/node_modules/
+# Ignore build directories
+frontend/build/
+# Ignore log files
+*.log   
+# Ignore IDE specific files
+.vscode/
+
+# Ignore system files
+.DS_Store
