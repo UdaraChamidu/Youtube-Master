@@ -21,14 +21,19 @@ youtube-summary-translator/
 ├── README.md 
 │
 └── utils/
-        transcript.py # YouTube transcript extraction
-        summarizer.py # Summarization with Gemini API
-        translator.py # English → Sinhala translation
+        transcript.py                 # YouTube transcript extraction
+        summarizer.py                 # Summarization with Gemini API
+        translator.py                 # English → Sinhala translation
 ```
 
 ### To run
 
+#### Backend
 ```
 uvicorn main:app --reload
+```
 
+#### Frontend
+```
+npm start
 ```
