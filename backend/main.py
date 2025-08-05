@@ -5,7 +5,6 @@ from utils.translator import translate_to_sinhala
 from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
 
- 
 
 load_dotenv()
 app = FastAPI()
