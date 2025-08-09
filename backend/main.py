@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
 
 
-load_dotenv()
+load_dotenv(dotenv_path="utils/.env")
 app = FastAPI()
 
 app.add_middleware(
